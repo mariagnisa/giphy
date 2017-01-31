@@ -4,7 +4,7 @@ A school project. We are building a Giphy application while learning [Node.js](h
 
 ## How to start
 - Install [node.js](http://www.nodejs.com)
-- Clone this repository ``git clone ``
+- Clone this repository `git clone https://github.com/mariagnisa/giphy.git`
 - Run `npm install` using e.g. comand prompt
 - Then run `npm run build`
 - And last, run `npm run watch`
