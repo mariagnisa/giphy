@@ -6,6 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+import App from './App.js';
 
 let LOADED = false;
 
@@ -22,7 +23,7 @@ function bootstrap () {
 
   LOADED = true;
 
-  console.log('The Giphy application has been loaded.');
+  //console.log('The Giphy application has been loaded.');
 
   // When the application is loaded we remove the event listeners.
   document.removeEventListener('DOMContentLoaded', bootstrap);
@@ -32,3 +33,5 @@ function bootstrap () {
 // We setup two listeners for better browser support.
 document.addEventListener('DOMContentLoaded', bootstrap);
 window.addEventListener('load', bootstrap);
+
+window.app = new App();
